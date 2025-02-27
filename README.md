@@ -53,7 +53,7 @@ python3 -m pip install -r requirements.txt
 ### 4️⃣ Run the Main Script
 
 ```bash
-python3 code.py
+python3 markdown.py
 ```
 
 ---

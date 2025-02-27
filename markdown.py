@@ -4,15 +4,15 @@ from markdownify import markdownify as md
 
 url = "https://www.fib.upc.edu"
 
-# 1. Descargar el HTML de la página
+# 1. Download the HTML of the page
 response = requests.get(url)
 html = response.text
 
-# 2. Convertir HTML a Markdown directamente
+# 2. Convert HTML to Markdown directly
 markdown = md(html, heading_style="ATX")
 
-# 3. Guardar el resultado en un archivo
-with open("pagina_convertida.md", "w", encoding="utf-8") as file:
+# 3. Save the result to a file
+with open("markdown.md", "w", encoding="utf-8") as file:
     file.write(markdown)
 
-print("Página convertida a Markdown y guardada como 'pagina_convertida.md'")
+print("Page converted to Markdown and saved as 'markdown.md'")
