@@ -1,6 +1,6 @@
 # 📝 Mini-Hackathon-Markdown
 
-This repository contains a mini project to extract information from a web page and convert it into **Markdown** format. The goal is to practice web scraping, data processing, and working with Markdown files.
+This repository contains a mini project to extract information from a web page and convert it into **Markdown** format. The goal is to practice web scraping, data processing, and working with Markdown files. The solution **https://www.firecrawl.dev/**
 
 ---
 
