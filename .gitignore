@@ -27,7 +27,6 @@ ENV/
 
 # Archivos de resultado o pruebas
 *.html
-*.md
 *.csv
 *.json
 
