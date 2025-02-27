@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Config files (opcional, si usas .env o settings locales)
+*.env
+*.local
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs, bases de datos y backups
+*.log
+*.sqlite3
+*.bak
+
+# Archivos de resultado o pruebas
+*.html
+*.md
+*.csv
+*.json
+
+# Pytest / Coverage / MyPy
+.pytest_cache/
+.coverage
+.mypy_cache/
+.tox/
+
+# Selenium / Browser Drivers
+chromedriver.log
+geckodriver.log
+
+# Archivos de lock de dependencias (opcional según el proyecto)
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Obsidian (si vas a trabajar con markdown en Obsidian directamente)
+.obsidian/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
